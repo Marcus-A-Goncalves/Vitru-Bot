@@ -9,10 +9,10 @@
     flex: 1;
     display: flex;
     margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    gap: 5px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
 }
 
 .chatContainer {
@@ -24,7 +24,7 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.14), 0px 0px 2px rgba(0, 0, 0, 0.12);
     border-radius: 8px;
     overflow-y: auto;
-    max-height: calc(100vh - 100px);
+    max-height: calc(100vh - 72px);
 }
 
 .chatEmptyState {
@@ -38,20 +38,20 @@
 .chatEmptyStateTitle {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 1.5rem;
     display: flex;
     align-items: flex-end;
     text-align: center;
     line-height: 24px;
-    margin-top: 36px;
+    margin-top: 12px;
     margin-bottom: 0px;
 }
 
 .chatEmptyStateSubtitle {
-    margin-top: 20px;
+    margin-top: 4px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 0.875rem;
     line-height: 150%;
     display: flex;
     align-items: flex-end;
@@ -61,8 +61,8 @@
 }
 
 .chatIcon {
-    height: 96px;
-    width: 96px;
+    height: 4rem;
+    width: 4rem;
 }
 
 .chatMessageStream {
@@ -70,8 +70,8 @@
     max-width: 1028px;
     width: 100%;
     overflow-y: auto;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 8px;
+    padding-right: 8px;
     display: flex;
     flex-direction: column;
     margin-top: 24px;
@@ -134,11 +134,7 @@
 .chatInput {
     position: sticky;
     flex: 0 0 100px;
-    padding-top: 12px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
-    width: calc(100% - 100px);
+    width: calc(100% - 1.5rem);
     max-width: 1028px;
     margin-bottom: 50px;
     margin-top: 8px;
@@ -170,8 +166,8 @@
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 7px;
-    top: 66px;
+    left: 1rem;
+    top: 4.125rem;
     color: #000 !important;
     background-color: #FFDD00;
     border-radius: 4px;
