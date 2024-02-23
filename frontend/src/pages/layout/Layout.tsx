@@ -84,7 +84,7 @@ const Layout = () => {
                     }]
                 }}
                 dialogContentProps={{
-                    title: "Compartilhar o VitruBOT",
+                    title: "Compartilhar a Sofia",
                     showCloseButton: true
                 }}
             >
